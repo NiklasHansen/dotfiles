@@ -1,0 +1,10 @@
+#!/bin/bash
+
+killall -q conky
+
+while pgrep -u $UID -x conky >/dev/null; do sleep 1; done
+
+conky -c ~/.config/conky/conky_shortcuts &&
+conky -c ~/.config/conky/conky_setup &&
+
+exit 0
