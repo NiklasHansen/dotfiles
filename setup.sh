@@ -3,6 +3,9 @@
 # Zsh
 stow -v -t ~ zsh
 
+# Git
+stow -v -t ~ git
+
 # Neovim
 mkdir -p ~/.config/nvim
 stow -v -R -t ~/.config/nvim nvim
