@@ -3,6 +3,9 @@
 # Zsh
 stow -v -t ~ zsh
 
+# Tmux
+stow -v -t ~ tmux
+
 # Git
 stow -v -t ~ git
 
