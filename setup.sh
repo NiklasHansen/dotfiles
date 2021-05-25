@@ -6,6 +6,10 @@ stow -v -t ~ zsh
 # Tmux
 stow -v -t ~ tmux
 
+# Fonts
+mkdir -p ~/.config/fontconfig
+stow -v -R -t ~/.config/fontconfig fonts
+
 # Git
 stow -v -t ~ git
 
