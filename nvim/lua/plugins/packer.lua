@@ -29,6 +29,7 @@ local function packer_startup()
         'nvim-lua/popup.nvim'
       }
     }
+		use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
 
 		-- Utils --
 		use 'hoob3rt/lualine.nvim'
