@@ -34,6 +34,7 @@ local function packer_startup()
 		-- Utils --
 		use 'hoob3rt/lualine.nvim'
 		use 'romgrk/nvim-treesitter-context'
+		use 'preservim/nerdcommenter'
 
 		-- Themes --
 		use 'arcticicestudio/nord-vim'

@@ -11,6 +11,7 @@ local function init()
 		'nord',
 
 		'lualine',
+		'nerdcommenter',
 	}
 
 	for _, plug in ipairs(plugins) do
