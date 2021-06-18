@@ -71,13 +71,65 @@ end
 time("try_loadstring definition", false)
 time("Defining packer_plugins", true)
 _G.packer_plugins = {
+  ["lsp_extensions.nvim"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/lsp_extensions.nvim"
+  },
+  ["lspcontainers.nvim"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/lspcontainers.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/lualine.nvim"
+  },
+  nerdcommenter = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/nerdcommenter"
+  },
   ["nord-vim"] = {
     loaded = true,
     path = "/home/niklas/.local/share/nvim/site/pack/packer/start/nord-vim"
   },
+  ["nvim-compe"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/nvim-compe"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+  },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-treesitter-context"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/niklas/.local/share/nvim/site/pack/packer/start/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
+  ["rust.vim"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/rust.vim"
+  },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/niklas/.local/share/nvim/site/pack/packer/start/telescope.nvim"
   }
 }
 
