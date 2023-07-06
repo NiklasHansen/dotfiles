@@ -18,8 +18,8 @@ mkdir -p ~/.config/nvim
 stow -v -R -t ~/.config/nvim nvim
 
 # i3
-mkdir -p ~/.i3
-stow -v -R -t ~/.i3 i3
+mkdir -p ~/.config/i3
+stow -v -R -t ~/.config/i3 i3
 
 # Polybar
 mkdir -p ~/.config/polybar
