@@ -159,6 +159,13 @@ local function setup_servers()
         ["rust-analyzer"] = {
           updates = {
             channel = "nightly"
+          },
+          procMacro = {
+            enable = true
+          },
+          diagnostics = {
+            enable = true,
+            disabled = {"unresolved-proc-macro"}
           }
         }
       }
